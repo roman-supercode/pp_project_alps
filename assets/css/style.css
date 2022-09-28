@@ -1,0 +1,147 @@
+/* =================
+    GLOBAL STYLE
+====================*/
+@font-face {
+    font-family: Cinzel-Var;
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins-Regular;
+    color: #333;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* =================
+    HEADER STYLE
+====================*/
+h1 {
+    font-family: Cinzel-Var;
+    color: #999;
+    background-color: #fff;
+    margin: 2rem 5rem;
+    font-size: 2rem;
+}
+
+header article {
+    background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 100px;
+    margin: 2rem 0 6rem 0;
+}
+
+header article h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Cinzel-Var;
+    font-size: 4.5rem;
+    width: 6em;
+    margin: 200px auto;
+    
+}
+
+
+/* =================
+    MAIN STYLE
+====================*/
+main section {
+    margin: 2rem 5rem;
+    text-align: center;
+}
+
+main section h3 {
+    font-family: Cinzel-Var;
+    font-size: 2rem;
+}
+
+main section p {
+    font-size: 1.2rem;
+    margin: 6rem 0;
+}
+
+main section div img {
+    width: 25%;
+    margin: 2.5rem;
+}
+
+main section article {
+    margin: 5rem 0;
+}
+
+main article ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+main article ul li {
+    margin: 1.5rem 0;
+}
+
+/* css pseudo elements */
+article ul li:nth-of-type(1)::after {
+    color: red;
+    content: " - SOLD OUT";
+}
+
+article ul li:nth-of-type(2)::after {
+    color: red;
+    content: " - SOLD OUT";
+}
+
+article ul li:nth-of-type(3)::after {
+    color: red;
+    content: " - SOLD OUT";
+}
+
+article ul li:nth-of-type(4)::after {
+    color: red;
+    content: " - ONLY 4 SPOTS AVAILABLE";
+}
+
+article ul li:nth-of-type(5)::after {
+    color: green;
+    content: " - AVAILABLE";
+}
+
+main section article ul li:nth-of-type(6)::after {
+    color: green;
+    content: " - AVAILABLE";
+}
+
+/* =================
+    FOOTER STYLE
+====================*/
+
+footer h3 {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    font-family: Cinzel-Var;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem; 
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 2rem;
+}
